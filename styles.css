@@ -1,0 +1,26 @@
+body {
+    background-color: #2269d4;
+  }
+.main-container {
+    background-color: #9e3293;
+    width: 1500px;
+    height: 900px;
+    display: flex;
+
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: auto; /* Add this line to center the container */
+    border-radius: 70px;
+    border: 10px solid rgb(219, 216, 28);
+    
+}
+.form-data{
+    justify-content: center;
+    flex-direction: row;
+
+}
+/* Increase height of textboxes */
+.txtboxes, .your-add{
+    height: 22px;
+}

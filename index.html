@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coding Passion Survey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Coding Passion Survey</h1>
+        <p>
+            Feel Free To Answer The Question Below Based On Your Own Experience And Opinion. If You Are Not Convenient <br>
+            In Answering A Particular Question Please Skip It By Answering "No". Every Answer Would Be Very Appreciated. Thank You For Your Time.
+        </p>
+        <div class ="form-data">
+            <form action="#" method="post">
+                <div class="your-name">
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" class="txtboxes" id="name" name="name" size="35" height="30" placeholder ="Enter your Name" ><br><br>
+                </div>
+                <div class="your-email">
+                    <label for="email">Your Email address:</label><br>
+                    <input type="email" class="txtboxes" id="email" name="email" size="35" placeholder ="Enter your E@mail"><br><br>
+
+                </div>
+                <div class="yourphone">
+                    <label for="phone">Your phone number:</label><br>
+                    <input type="tel" class="txtboxes" id="phone" name="phone" size="35" placeholder ="Enter your Phone"><br><br>
+                </div>
+                <div class="your-address">
+                    <label for="location">Where do you live?</label><br>
+                    <select id="location" name="location" class="your-add">
+                        <option value="north_america">North America</option>
+                        <option value="south_america">South America</option>
+                        <option value="europe">Europe</option>
+                        <option value="asia">Asia</option>
+                        <option value="africa">Africa</option>
+                        <option value="australia">Australia</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                </div>
+                <div class="your-age">
+                    <label>Age:</label><br><br>
+                    <input type="radio" id="age1" name="age" value="15-20">
+                    <label for="age1">15-20</label><br>
+                    <input type="radio" id="age2" name="age" value="21-30">
+                    <label for="age2">21-30</label><br>
+                    <input type="radio" id="age3" name="age" value="31-40">
+                    <label for="age3">31-40</label><br>
+                    <input type="radio" id="age4" name="age" value="41-50">
+                    <label for="age4">41-50</label><br>
+                    <input type="radio" id="age5" name="age" value="prefer_not_to_say">
+                    <label for="age5">Prefer not to say</label><br><br>
+                </div>
+                <div class="coding-prof">
+                    <label>How would you rate your proficiency in coding:</label><br>
+                    <input type="radio" id="beginner" name="proficiency" value="beginner">
+                    <label for="beginner">Beginner</label><br>
+                    <input type="radio" id="intermediate" name="proficiency" value="intermediate">
+                    <label for="intermediate">Intermediate</label><br>
+                    <input type="radio" id="advanced" name="proficiency" value="advanced">
+                    <label for="advanced">Advanced</label><br><br>
+                </div>
+                <div class="coding-cont">
+                    <label>Have you ever participated in any coding contest?</label><br>
+                    <input type="radio" id="yes" name="contest" value="yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="contest" value="no">
+                    <label for="no">No</label><br><br>
+                </div>
+                <div class="coding-pass">
+                    <label for="passion">Discuss what drives your passion for coding and outline your aspirations in the field:</label><br>
+                    <textarea id="passion" name="passion" rows="4" cols="50" placeholder ="Write Here....."></textarea><br><br>
+                </div>
+                <div class="coding-chall">
+                    <label for="challenges">What are some of the challenges you face while coding?</label><br>
+                    <textarea id="challenges" name="challenges" rows="4" cols="50" placeholder ="Write here"></textarea><br><br>
+                </div>
+                <div class="coding-under">
+                    <label for="data_structures">Please list the Data Structures you have a strong understanding of:</label><br>
+                    <textarea id="data_structures" name="data_structures" rows="4" cols="50" placeholder ="Write Here"></textarea><br><br>
+                </div>
+                <div class="coding-submit">
+                    <button type="submit">Submit Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
