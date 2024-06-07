@@ -1,12 +1,13 @@
 body {
-    background-color: #2269d4;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
   }
 .main-container {
-    background-color: #9e3293;
+    background-color: #1f7f2f;
     width: 1500px;
-    height: 900px;
-    display: flex;
-
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 40px;
@@ -16,11 +17,62 @@ body {
     
 }
 .form-data{
+    display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    
 
+}
+.radio-grp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.your-name{
+    flex: 1 1 auto
+}
+.your-email{
+    flex: 1 1 auto
+}
+.yourphone{
+    flex: 1 1 auto
+}
+.your-address{
+    flex: 1 1 auto
+}
+.your-age{
+    flex: 1 1 auto
+}
+.coding-prof{
+    flex: 1 1 auto
+}
+.oding-cont{
+    flex: 1 1 auto
+}
+.coding-pass{
+    flex: 1 1 auto
+}
+.coding-under{
+    flex: 1 1 auto
+}
+.coding-chall{
+    flex: 1 1 auto
 }
 /* Increase height of textboxes */
 .txtboxes, .your-add{
     height: 22px;
+}
+/* styles of submit button */
+button{
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
 }
